@@ -1,0 +1,15 @@
+/**
+ * Public API Surface of @tinkoff/ng-event-plugins
+ */
+export * from './constants/plugins';
+export * from './decorators/should-call';
+export * from './plugins/bind.plugin';
+export * from './plugins/capture.plugin';
+export * from './plugins/prevent.plugin';
+export * from './plugins/silent.plugin';
+export * from './plugins/stop.plugin';
+export * from './plugins/zone.plugin';
+export * from './types/predicate';
+export * from './utils/as-callable';
+export * from './module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25nLWV2ZW50LXBsdWdpbnMvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFDSCxjQUFjLHFCQUFxQixDQUFDO0FBQ3BDLGNBQWMsMEJBQTBCLENBQUM7QUFDekMsY0FBYyx1QkFBdUIsQ0FBQztBQUN0QyxjQUFjLDBCQUEwQixDQUFDO0FBQ3pDLGNBQWMsMEJBQTBCLENBQUM7QUFDekMsY0FBYyx5QkFBeUIsQ0FBQztBQUN4QyxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMsdUJBQXVCLENBQUM7QUFDdEMsY0FBYyxtQkFBbUIsQ0FBQztBQUNsQyxjQUFjLHFCQUFxQixDQUFDO0FBQ3BDLGNBQWMsVUFBVSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgQHRpbmtvZmYvbmctZXZlbnQtcGx1Z2luc1xuICovXG5leHBvcnQgKiBmcm9tICcuL2NvbnN0YW50cy9wbHVnaW5zJztcbmV4cG9ydCAqIGZyb20gJy4vZGVjb3JhdG9ycy9zaG91bGQtY2FsbCc7XG5leHBvcnQgKiBmcm9tICcuL3BsdWdpbnMvYmluZC5wbHVnaW4nO1xuZXhwb3J0ICogZnJvbSAnLi9wbHVnaW5zL2NhcHR1cmUucGx1Z2luJztcbmV4cG9ydCAqIGZyb20gJy4vcGx1Z2lucy9wcmV2ZW50LnBsdWdpbic7XG5leHBvcnQgKiBmcm9tICcuL3BsdWdpbnMvc2lsZW50LnBsdWdpbic7XG5leHBvcnQgKiBmcm9tICcuL3BsdWdpbnMvc3RvcC5wbHVnaW4nO1xuZXhwb3J0ICogZnJvbSAnLi9wbHVnaW5zL3pvbmUucGx1Z2luJztcbmV4cG9ydCAqIGZyb20gJy4vdHlwZXMvcHJlZGljYXRlJztcbmV4cG9ydCAqIGZyb20gJy4vdXRpbHMvYXMtY2FsbGFibGUnO1xuZXhwb3J0ICogZnJvbSAnLi9tb2R1bGUnO1xuIl19
